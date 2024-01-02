@@ -5,7 +5,7 @@ import '../Model/Symptom.dart';
 import '../Model/Disease.dart';
 
 class Api {
-  final String _url = "http://192.168.1.60:8080/api";
+  final String _url = "http://XXX.XXX.XXX:8080/api";
   final String _header = "3cfa26d6-5c52-480b-90ea-7aee7b40a5d6";
 
   Future<List<Symptom>> getSymptoms() async {
