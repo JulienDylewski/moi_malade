@@ -6,7 +6,7 @@ import '../Model/Disease.dart';
 
 class Api {
   final String _url = "http://XXX.XXX.XXX:8080/api";
-  final String _header = "3cfa26d6-5c52-480b-90ea-7aee7b40a5d6";
+  final String _header = "XX-API-KEY";
 
   Future<List<Symptom>> getSymptoms() async {
     final response = await http.get(
